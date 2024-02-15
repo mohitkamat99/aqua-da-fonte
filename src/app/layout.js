@@ -1,5 +1,23 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
+// import the library
+import { library } from "@fortawesome/fontawesome-svg-core";
+
+// import your icons
+import { fab } from "@fortawesome/free-brands-svg-icons";
+import { fas } from "@fortawesome/free-solid-svg-icons";
+import { far } from "@fortawesome/free-regular-svg-icons";
+{
+  /* The following line can be included in your src/index.js or App.js file */
+}
+import "bootstrap/dist/css/bootstrap.min.css";
+import "../assets/css/styles.css";
+import "../assets/css/responsive.css";
+import "../assets/css/owl.css";
+import "../assets/css/animate.css";
+import "../assets/css/color.css";
+import "../assets/css/flaticon.css";
+import "../assets/css/font-awesome-all.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -15,3 +33,6 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+
+// Add your icons
+library.add(fab, fas, far);
