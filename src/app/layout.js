@@ -11,13 +11,15 @@ import { far } from "@fortawesome/free-regular-svg-icons";
   /* The following line can be included in your src/index.js or App.js file */
 }
 import "bootstrap/dist/css/bootstrap.min.css";
-import "../assets/css/styles.css";
+import "../assets/css/style.css";
 import "../assets/css/responsive.css";
 import "../assets/css/owl.css";
 import "../assets/css/animate.css";
 import "../assets/css/color.css";
 import "../assets/css/flaticon.css";
 import "../assets/css/font-awesome-all.css";
+import "../assets/css/jquery.fancybox.min.css";
+import "../assets/css/jquery-ui.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
